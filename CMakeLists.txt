@@ -3,4 +3,4 @@ project(SystemIndexBinaryTree C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(SystemIndexBinaryTree main.c)
+add_executable(SystemIndexBinaryTree main.c arvore.c)
