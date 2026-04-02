@@ -2,7 +2,7 @@
 
 Um sistema de indexação de produtos eficiente implementado em C, utilizando **Árvores Binárias de Busca (BST)**. O projeto permite gerenciar produtos com indexação dupla simultânea (por ID e por Preço), facilitando buscas rápidas e operações complexas como busca por faixa de preço.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 O sistema oferece as seguintes operações:
 
@@ -15,14 +15,14 @@ O sistema oferece as seguintes operações:
   - Listagem de produtos ordenada por ID.
   - Listagem de produtos ordenada por Preço.
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 - `main.c`: Ponto de entrada do programa com exemplos de uso das funcionalidades.
 - `arvore.h` / `arvore.c`: Implementação da lógica das Árvores Binárias de Busca e do Gerenciador de índices.
 - `produto.h`: Definição da estrutura de dados do Produto.
 - `CMakeLists.txt`: Arquivo de configuração para compilação via CMake.
 
-## Perguntas
+##  Perguntas
 
 ### 1. Qual a complexidade das operações em:
 - **Melhor Caso:** $O(\log n)$ — Ocorre quando a árvore está balanceada, permitindo que cada comparação descarte metade dos nós restantes.
