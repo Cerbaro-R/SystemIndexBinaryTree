@@ -1,1 +1,4 @@
 _PEA_AV1_T1.pdf
+*.exe
+cmake-build-debug/
+.idea/
