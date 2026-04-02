@@ -7,4 +7,4 @@ typedef struct {
     float preco;
 } Produto;
 
-#endif // PRODUTO_H
+#endif
